@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Project_Three_GUI"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="Azure">
+        <Label Content="Please enter your username:" HorizontalAlignment="Left" Margin="86,80,0,0" VerticalAlignment="Top" Height="28" Width="156" Background="#FF1FC3A8"/>
+        <TextBox HorizontalAlignment="center" Height="23" Margin="247,80,336.6,0" TextWrapping="Wrap" Text="enter username here" VerticalAlignment="Top" Width="210"/>
+        <Label Content="Please enter your password" HorizontalAlignment="Left" Margin="86,120,0,0" VerticalAlignment="Top" Height="28" Width="156" Background="#FF1FC3A8"/>
+        <TextBox HorizontalAlignment="center" Height="23" Margin="247,120,320.6,0" TextWrapping="Wrap" Text="enter PASSWORD here" VerticalAlignment="Top" Width="210"/>
+        <Button Content="Click Here" HorizontalAlignment="Left" Margin="358,239,0,0" VerticalAlignment="Top" Width="100" Height="30" Background="#FF1022A2" Foreground="#FFF4EBEB"/>
     </Grid>
 </Window>
